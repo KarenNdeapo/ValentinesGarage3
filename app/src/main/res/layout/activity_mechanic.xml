@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#1a1a2e" android:padding="16dp">
+
+    <TextView android:text="Select Truck"
+        android:textColor="#aaa" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+
+    <Spinner android:id="@+id/spinnerTrucks"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:backgroundTint="#e94560" android:layout_marginBottom="16dp"/>
+
+    <EditText android:id="@+id/etTaskName"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Task name (e.g. Oil change)" android:textColor="#fff"
+        android:textColorHint="#aaa" android:backgroundTint="#fff"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/etNotes"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Notes about what was done" android:textColor="#fff"
+        android:textColorHint="#aaa" android:backgroundTint="#fff"
+        android:minLines="3" android:gravity="top" android:layout_marginBottom="12dp"/>
+
+    <CheckBox android:id="@+id/cbDone"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Mark as Done" android:textColor="#fff"
+        android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btnSaveTask"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Save Task" android:backgroundTint="#e94560"/>
+
+    <TextView android:id="@+id/tvMechanicStatus"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#00ff99" android:layout_marginTop="12dp" android:text=""/>
+</LinearLayout>

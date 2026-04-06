@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#1a1a2e" android:padding="16dp">
+
+    <TextView android:text="📊 Admin Report"
+        android:textSize="22sp" android:textColor="#ffffff" android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/tvReport"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="#cccccc" android:textSize="14sp"
+            android:fontFamily="monospace" android:lineSpacingExtra="4dp"/>
+    </ScrollView>
+</LinearLayout>
